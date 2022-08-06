@@ -1,0 +1,12 @@
+----------------------------------------
+Algorithm=exactStorm
+Data File = TAO
+R=1.9;k=50;W=10000;slide=500
+Number Window = 20
+Peak Memory = 48.223716735839844
+CPU time = 0.52734375
+Time for index structure: 0.18046875
+Time for querying: 0.0
+Time for new slide: 0.43671875
+Time for expired slide: 0.090625
+Ave length of neighbors = 48.37332657435155

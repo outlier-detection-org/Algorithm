@@ -10,22 +10,22 @@ public class Constants {
     public static int dimensions = 3;
     public static int samplingPeriod = 100;
 //    public static String prefix = "/home/xinyingzheng/Desktop/Luan/Outlier/";
-    public static String prefix = "C:\\Users\\14198\\Desktop\\Luan\\Outlier\\";
+    public static String prefix = "C:\\Users\\14198\\Desktop\\outlier_detection\\";
     public static String forestCoverFileName = prefix+"Datasets\\fc.data";
-    public static String taoFileName = prefix+"Datasets\\tao.txt";
-    public static String emFileName = prefix+"Datasets\\ethylene.txt";
-    public static String stockFileName = prefix+"Datasets\\stock.txt";
-    public static String gaussFileName = prefix+"Datasets\\gaussian.txt";
-    public static String hpcFileName = prefix+"Datasets\\household2.txt";
-    public static String outputStorm =prefix+ "CountBasedWindow\\DODDS\\output\\storm.txt";
-    public static String outputapStorm = prefix+"CountBasedWindow\\DODDS\\output\\ap_storm.txt";
-    public static String outputabstractC = prefix+"CountBasedWindow\\DODDS\\output\\abstractC.txt";
-    public static String outputLUE = prefix+"CountBasedWindow\\DODDS\\output\\LUE.txt";
-    public static String outputDUE = prefix+"CountBasedWindow\\DODDS\\output\\DUE.txt";
-    public static String outputMESI =prefix+ "CountBasedWindow\\DODDS\\output\\MESI.txt";
-    public static String outputMESIHash =prefix+ "CountBasedWindow\\DODDS\\output\\MESI_hash.txt";
-    public static String outputMicro = prefix+ "CountBasedWindow\\DODDS\\output\\MICRO.txt";
-    public static String outputMicroNew = prefix+ "CountBasedWindow\\DODDS\\output\\MICRO_new.txt";
+    public static String taoFileName = prefix+"\\Datasets\\tao.txt";
+    public static String emFileName = prefix+"\\Datasets\\ethylene.txt";
+    public static String stockFileName = prefix+"\\Datasets\\stock.txt";
+    public static String gaussFileName = prefix+"\\Datasets\\gaussian.txt";
+    public static String hpcFileName = prefix+"\\Datasets\\household2.txt";
+    public static String outputStorm =prefix+ "\\Algorithm\\output\\storm.txt";
+    public static String outputapStorm = prefix+"\\Algorithm\\output\\ap_storm.txt";
+    public static String outputabstractC = prefix+"\\Algorithm\\output\\abstractC.txt";
+    public static String outputLUE = prefix+"\\Algorithm\\output\\LUE.txt";
+    public static String outputDUE = prefix+"\\Algorithm\\output\\DUE.txt";
+    public static String outputMESI =prefix+ "\\Algorithm\\output\\MESI.txt";
+    public static String outputMESIHash =prefix+ "\\Algorithm\\output\\MESI_hash.txt";
+    public static String outputMicro = prefix+ "\\Algorithm\\output\\MICRO.txt";
+    public static String outputMicroNew = prefix+ "\\Algorithm\\output\\MICRO_new.txt";
 
     public static String randomFileName = "C:\\Users\\Luan\\MTree\\GaussMixture.txt";
     public static String randomFileName1111 = "C:\\Users\\Luan\\MTree\\randomData1.txt";
@@ -46,8 +46,8 @@ public class Constants {
     public static String tagFileName5 = "C:\\Users\\Luan\\MTree\\tag5.txt";
     public static String STT = "C:\\Users\\Luan\\MTree\\stt.txt";
     public static String dataFile= "";
-    public static String outputFile= prefix+"CountBasedWindow\\DODDS\\output\\outputDefault1.txt";
-    public static String resultFile=prefix+"CountBasedWindow\\DODDS\\output\\result.txt";
+    public static String outputFile= prefix+"\\Algorithm\\output\\outputDefault.txt";
+    public static String resultFile=prefix+"\\Algorithm\\output\\result.txt";
     public static double likely = 0.5;
     
     
