@@ -65,6 +65,13 @@ public class Stream {
         return !streams.isEmpty();
     }
 
+    /**
+     *  return a list of data which is in the period [currentTime,currentTime+length]
+     * @param currentTime
+     * @param length
+     * @param filename
+     * @return
+     */
     public ArrayList<Data> getIncomingData(int currentTime, int length, String filename) {
 
         ArrayList<Data> results = new ArrayList<>();
@@ -109,6 +116,15 @@ public class Stream {
         return formatter.parse(atts[0].trim());
     }
 
+    /**
+     * return a list of data which is in the period [currentTime,currentTime+length] but each has a likely probability
+     * to return
+     * @param currentTime
+     * @param length
+     * @param filename
+     * @param likely
+     * @return
+     */
     public ArrayList<Data> getRandomIncomingData(int currentTime, int length, String filename, double likely) {
         Random r = new Random();
         ArrayList<Data> results = new ArrayList<>();
@@ -148,6 +164,13 @@ public class Stream {
 
     }
 
+    /**
+     * return time based Incoming data, each data line begins with a timestamp like: [2022/8/6 data]
+     * @param currentTime
+     * @param lengthInSecond
+     * @param filename
+     * @return
+     */
     public ArrayList<Data> getTimeBasedIncomingData(Date currentTime, int lengthInSecond, String filename) {
         ArrayList<Data> results = new ArrayList<>();
         try {
@@ -195,6 +218,12 @@ public class Stream {
 
     }
 
+    /**
+     * get incoming data in the period [currentTime,currentTime+length]
+     * @param currentTime
+     * @param length
+     * @return
+     */
     public ArrayList<Data> getIncomingData(int currentTime, int length) {
         ArrayList<Data> results = new ArrayList<Data>();
         Data d = streams.peek();
@@ -209,6 +238,11 @@ public class Stream {
 
     }
 
+    /**
+     * generate random data of the size length in the range [0,range]
+     * @param length
+     * @param range
+     */
     public void getRandomInput(int length, int range) {
 
         Random r = new Random();
@@ -223,6 +257,10 @@ public class Stream {
 
     }
 
+    /**
+     * read data and store it in the streams
+     * @param filename
+     */
     public void getData(String filename) {
 
         try {

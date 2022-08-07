@@ -287,7 +287,12 @@ public class LSH {
 			this.rand = new Random();
 			this.measure=measure;
 		}
-		
+
+		/**
+		 * examine 30 vectors, find its nearest vector, get their distance and then find the average to be the determined radius
+		 * @return
+		 * @throws Exception
+		 */
 	    @Override
 	    public Double call() throws Exception {
 	        for(int i = 0 ; i < 30; i ++){

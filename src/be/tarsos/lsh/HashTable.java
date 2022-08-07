@@ -45,7 +45,7 @@ class HashTable implements Serializable {
      * Contains the mapping between a combination of a number of hashes (encoded
      * using an integer) and a list of possible nearest neighbours
      */
-    private HashMap<Integer, List<Vector>> hashTable;
+    private HashMap<Integer, List<Vector>> hashTable; //like the buckets
     private HashFunction[] hashFunctions;
     private HashFamily family;
 

@@ -32,9 +32,9 @@ public class EuclideanHash implements HashFunction{
 	 * 
 	 */
 	private static final long serialVersionUID = -3784656820380622717L;
-	private Vector randomProjection;
-	private int offset;
-	private int w;
+	private Vector randomProjection; //a which is a vector with every dimension choose from a p-stable function
+	private int offset; //b
+	private int w; //r
 	
 	public EuclideanHash(int dimensions,int w){
 		Random rand = new Random();
